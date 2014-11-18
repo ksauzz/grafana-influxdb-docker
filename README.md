@@ -6,9 +6,8 @@ So you can aggregate metrics from multiple servers using collectd or something v
 ## Getting started
 
 ```
-sudo docker pull ksauzz/elasticsearch
 sudo docker pull ksauzz/influxdb:grafana
-sudo docker pull ksauzz/grafana:1.6.0
+sudo docker pull ksauzz/grafana:1.8.1
 sudo ./run-grafana.sh
 ./init-db.sh
 ```
